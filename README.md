@@ -2,7 +2,7 @@
 Repo that describes how to connect to SageMaker Studio using a Domain Pre Signed URL.  Within this demo we will be creating the Sagemaker Domain, User Profiles and Jupiter Apps for each defined user.  Then we will discuss howe to implemented restricted access via Attribute Based Access Control (ABAC) where we restrict access to the Sagemaker Notebooks based on employeeNumber.  We can easly add new Sagemaker Studio User Profiles by adding a new user+employeeNumber to the local variable smsUsers (which can be found in the `variables.tf` file).
 
 ## Architecture
-![alt text](https://github.com/gravelgrinder/aws-sagemaker-studio-domain-presigned-url-access/blob/main/images/architecture-diagram.png?raw=true)
+![alt text](https://github.com/gravelgrinder/aws-sagemaker-studio-domain-presigned-url-access/blob/main/architecture_diagram.png?raw=true)
 
 ## Setup Steps
 1. Run the following to Initialize the Terraform environment.
