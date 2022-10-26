@@ -42,6 +42,7 @@ resource "aws_sagemaker_domain" "example" {
   auth_mode               = "IAM"
   vpc_id                  = var.sagemaker_studio_domain_vpc_id
   subnet_ids              = var.sagemaker_studio_domain_subnet_ids
+  app_network_access_type = "VpcOnly"
 
   default_user_settings {
     execution_role = aws_iam_role.sm_execution_role.arn

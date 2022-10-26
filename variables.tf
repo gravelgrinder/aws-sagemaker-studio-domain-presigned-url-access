@@ -13,5 +13,6 @@ locals {
   smsUsers = {
     "lwdvin+developer" = "a01234"
     "lwdvin"           = "a00001"
+    "jon.doe"          = "a00002"
   }
 }

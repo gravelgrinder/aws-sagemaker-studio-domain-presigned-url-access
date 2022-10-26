@@ -6,7 +6,7 @@ resource "aws_sagemaker_user_profile" "example" {
   domain_id         = aws_sagemaker_domain.example.id
   user_profile_name = join("-", ["sms-up", replace(each.key, "/[+.@]/", "-")])
   user_settings {
-    execution_role = aws_iam_role.sm_execution_role.arn
+    execution_role              = aws_iam_role.sm_execution_role.arn
   }
 
   tags = {
