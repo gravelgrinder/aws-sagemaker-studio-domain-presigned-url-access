@@ -90,6 +90,8 @@ terraform destroy
 * [About SAML 2.0-based federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html)
 * [Amazon Sagemaker: Service Authorization Reference for CreatePresignedDomainUrl](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsagemaker.html#amazonsagemaker-CreatePresignedDomainUrl)
 * [Really Helpful for CloudTrail logging per UserProfile. Make sure to enable if using the same execution role between User Profiles!](https://docs.aws.amazon.com/sagemaker/latest/dg/monitor-user-access.html)
+* [SAML Troubleshooting 403 error](https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_saml.html#troubleshoot_saml_missing-role)
+* [Permissions required to add session tags](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html#id_session-tags_permissions-required)
 
 
 ## Questions & Comments
